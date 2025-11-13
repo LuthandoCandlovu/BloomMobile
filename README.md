@@ -103,4 +103,6 @@ graph TB
     I --> N[ML Models]
     J --> O[Fraud Detection]
     K --> P[Push Service]
+<img width="5211" height="1260" alt="Image" src="https://github.com/user-attachments/assets/65db9571-a3c9-4660-af63-146417e46399" />
+
 
