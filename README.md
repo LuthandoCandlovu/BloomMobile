@@ -103,3 +103,21 @@ graph TB
     I --> N[ML Models]
     J --> O[Fraud Detection]
     K --> P[Push Service]
+sequenceDiagram
+    participant U as User
+    participant APP as BloomMobile App
+    participant SEC as Security Layer
+    participant API as API Gateway
+    participant MS as Microservices
+    participant DB as Database
+    
+    U->>APP: Biometric Auth
+    APP->>SEC: Encrypted Request
+    SEC->>API: JWT Token
+    API->>MS: Route to Service
+    MS->>DB: Secure Query
+    DB-->>MS: Encrypted Data
+    MS-->>API: Processed Response
+    API-->>SEC: Audit Log
+    SEC-->>APP: Decrypted Data
+    APP-->>U: Beautiful UI Update
