@@ -103,12 +103,25 @@ graph TB
     I --> N[ML Models]
     J --> O[Fraud Detection]
     K --> P[Push Service]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style D fill:#ffebee
-    style F fill:#e8f5e8
 📊 Data Flow Architecture
+sequenceDiagram
+    participant U as User
+    participant APP as BloomMobile App
+    participant SEC as Security Layer
+    participant API as API Gateway
+    participant MS as Microservices
+    participant DB as Database
+    
+    U->>APP: Biometric Auth
+    APP->>SEC: Encrypted Request
+    SEC->>API: JWT Token
+    API->>MS: Route to Service
+    MS->>DB: Secure Query
+    DB-->>MS: Encrypted Data
+    MS-->>API: Processed Response
+    API-->>SEC: Audit Log
+    SEC-->>APP: Decrypted Data
+    APP-->>U: Beautiful UI Update
 🛠️ Tech Stack Deep Dive
 🎨 Frontend Excellence
 <table> <tr> <th>Layer</th> <th>Technology</th> <th>Purpose</th> </tr> <tr> <td>🖼️ UI Framework</td> <td>React Native + TypeScript</td> <td>Type-safe cross-platform development</td> </tr> <tr> <td>🎪 Animation</td> <td>React Native Reanimated 3</td> <td>60FPS smooth animations</td> </tr> <tr> <td>🧭 Navigation</td> <td>React Navigation 6</td> <td>Native-like navigation experience</td> </tr> <tr> <td>🎯 State Management</td> <td>Zustand + React Query</td> <td>Optimistic updates & caching</td> </tr> <tr> <td>🌈 Styling</td> <td>Styled Components + Tailwind</td> <td>Consistent design system</td> </tr> </table>
