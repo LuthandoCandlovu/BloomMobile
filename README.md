@@ -98,27 +98,27 @@
 
 ## 🏗️ System Architecture
 
-### 🔬 **Technical Blueprint**
+# 🔬 Technical Blueprint
 
 ```mermaid
 graph TB
-    A[📱 User Mobile Device] --> B[⚛️ React Native App]
-    B --> C[🧩 Expo Framework]
-    C --> D[🔒 Security Layer]
-    D --> E[🚪 API Gateway]
-    E --> F[🧠 Microservices Architecture]
+    A[User Mobile Device] --> B[React Native App]
+    B --> C[Expo Framework]
+    C --> D[Security Layer]
+    D --> E[API Gateway]
+    E --> F[Microservices Architecture]
     
-    F --> G[🔐 Auth Service]
-    F --> H[💳 Transaction Service]
-    F --> I[🤖 AI Analytics Service]
-    F --> J[🕵️ Security Service]
-    F --> K[📩 Notification Service]
+    F --> G[Auth Service]
+    F --> H[Transaction Service]
+    F --> I[AI Analytics Service]
+    F --> J[Security Service]
+    F --> K[Notification Service]
     
-    G --> L[🪪 Identity Provider]
-    H --> M[🗄️ Database Cluster]
-    I --> N[📊 ML Models]
-    J --> O[🚨 Fraud Detection Engine]
-    K --> P[📢 Push Service]
+    G --> L[Identity Provider]
+    H --> M[Database Cluster]
+    I --> N[ML Models]
+    J --> O[Fraud Detection Engine]
+    K --> P[Push Service]
 
     %% Styling
     style A fill:#f6f8fa,stroke:#333,stroke-width:1px
@@ -132,6 +132,7 @@ graph TB
     style I fill:#a5f3fc,stroke:#333,stroke-width:1px
     style J fill:#fecaca,stroke:#333,stroke-width:1px
     style K fill:#fde68a,stroke:#333,stroke-width:1px
+
 📊 Data Flow Architecture
 Layer	Technology	Purpose
 🖼️ UI Framework	React Native + TypeScript	Type-safe cross-platform development
