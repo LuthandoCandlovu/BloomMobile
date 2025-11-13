@@ -19,111 +19,6 @@
 
 ---
 
-## 🎬 Featured Demo
-
-<div align="center">
-
-### 📱 **Application Showcase**
-<img width="979" height="980" alt="BloomMobile Full App Demo" src="https://github.com/user-attachments/assets/a3ca22c3-d7d2-4982-afc5-6002f09d9e4c" />
-
-*Complete banking ecosystem in one powerful application*
-
-</div>
-
----
-
-## ✨ Immersive Features
-
-### 🎯 **Core Banking Excellence**
-<table>
-<tr>
-<td width="50%">
-
-**💳 Smart Banking**
-- Real-time account monitoring
-- Intelligent transaction categorization
-- Instant peer-to-peer payments
-- Automated bill management
-
-</td>
-<td width="50%">
-
-**🔒 Advanced Security**
-- Biometric multi-layer authentication
-- Quantum-resistant encryption
-- Behavioral anomaly detection
-- Hardware security modules
-
-</td>
-</tr>
-<tr>
-<td>
-
-**🤖 AI Intelligence**
-- Predictive financial insights
-- Voice-activated banking
-- Smart budget optimization
-- 24/7 virtual financial advisor
-
-</td>
-<td>
-
-**🚀 Premium Features**
-- Cryptocurrency integration
-- Investment portfolio management
-- Business banking suite
-- Financial education hub
-
-</td>
-</tr>
-</table>
-
----
-
-## 🏗️ System Architecture
-
-### 🔬 **Technical Blueprint**
-
-```mermaid
-graph TB
-    A[User Mobile Device] --> B[React Native App]
-    B --> C[Expo Framework]
-    C --> D[Security Layer]
-    D --> E[API Gateway]
-    E --> F[Microservices Architecture]
-    
-    F --> G[Auth Service]
-    F --> H[Transaction Service]
-    F --> I[AI Analytics Service]
-    F --> J[Security Service]
-    F --> K[Notification Service]
-    
-    G --> L[Identity Provider]
-    H --> M[Database Cluster]
-    I --> N[ML Models]
-    J --> O[Fraud Detection]
-    K --> P[Push Service]
-<!-- Header with Animated Logo -->
-<div align="center">
-
-<img width="261" height="193" alt="BloomMobile Logo" src="https://github.com/user-attachments/assets/066d1abb-0c11-462c-91a1-441678ccabaf" />
-
-# 🏦 BloomMobile - Next-Gen Digital Banking
-
-> *Where Cutting-Edge Technology Meets Financial Excellence* ✨
-
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![Security](https://img.shields.io/badge/Security-A+-brightgreen?style=for-the-badge)
-![AI Powered](https://img.shields.io/badge/AI-Powered-orange?style=for-the-badge)
-
-**Experience the future of banking with AI-driven insights, military-grade security, and seamless user experience**
-
-</div>
-
----
-
 ## 🎬 Application Showcase
 
 <div align="center">
@@ -156,25 +51,24 @@ graph TB
 
 ## 🚀 Immersive Features
 
-### 🎯 **Core Banking Excellence**
 <table>
 <tr>
 <td width="50%">
 
 **💳 Smart Banking**
-- Real-time account monitoring
-- Intelligent transaction categorization
-- Instant peer-to-peer payments
-- Automated bill management
+- Real-time account monitoring  
+- Intelligent transaction categorization  
+- Instant peer-to-peer payments  
+- Automated bill management  
 
 </td>
 <td width="50%">
 
 **🔒 Advanced Security**
-- Biometric multi-layer authentication
-- Quantum-resistant encryption
-- Behavioral anomaly detection
-- Hardware security modules
+- Biometric multi-layer authentication  
+- Quantum-resistant encryption  
+- Behavioral anomaly detection  
+- Hardware security modules  
 
 </td>
 </tr>
@@ -182,19 +76,19 @@ graph TB
 <td>
 
 **🤖 AI Intelligence**
-- Predictive financial insights
-- Voice-activated banking
-- Smart budget optimization
-- 24/7 virtual financial advisor
+- Predictive financial insights  
+- Voice-activated banking  
+- Smart budget optimization  
+- 24/7 virtual financial advisor  
 
 </td>
 <td>
 
 **🚀 Premium Features**
-- Cryptocurrency integration
-- Investment portfolio management
-- Business banking suite
-- Financial education hub
+- Cryptocurrency integration  
+- Investment portfolio management  
+- Business banking suite  
+- Financial education hub  
 
 </td>
 </tr>
@@ -227,10 +121,16 @@ graph TB
     K --> P[Push Service]
 📊 Data Flow Architecture
 🛠️ Tech Stack Deep Dive
-🎨 Frontend Excellence
-<table> <tr> <th>Layer</th> <th>Technology</th> <th>Purpose</th> </tr> <tr> <td>🖼️ UI Framework</td> <td>React Native + TypeScript</td> <td>Type-safe cross-platform development</td> </tr> <tr> <td>🎪 Animation</td> <td>React Native Reanimated 3</td> <td>60FPS smooth animations</td> </tr> <tr> <td>🧭 Navigation</td> <td>React Navigation 6</td> <td>Native-like navigation experience</td> </tr> <tr> <td>🎯 State Management</td> <td>Zustand + React Query</td> <td>Optimistic updates & caching</td> </tr> <tr> <td>🌈 Styling</td> <td>Styled Components + Tailwind</td> <td>Consistent design system</td> </tr> </table>
+Layer	Technology	Purpose
+🖼️ UI Framework	React Native + TypeScript	Type-safe cross-platform development
+🎪 Animation	React Native Reanimated 3	60FPS smooth animations
+🧭 Navigation	React Navigation 6	Native-like navigation experience
+🎯 State Management	Zustand + React Query	Optimistic updates & caching
+🌈 Styling	Styled Components + Tailwind	Consistent design system
+
 🔧 Backend Infrastructure
 yaml
+Copy code
 Security:
   - AES-256-GCM Encryption
   - RSA-4096 Key Exchange
@@ -251,11 +151,12 @@ AI/ML:
 🚀 Quick Start
 📥 Installation & Setup
 bash
+Copy code
 # Clone with SSH (Recommended)
 git clone git@github.com:LuthandoCandlovu/BloomMobile.git
 
 # Or with HTTPS
-git clone https://github.com:LuthandoCandlovu/BloomMobile.git
+git clone https://github.com/LuthandoCandlovu/BloomMobile.git
 
 # Navigate and install
 cd BloomMobile
@@ -268,6 +169,7 @@ cp .env.example .env
 npx expo start --clear
 🏃 Development Scripts
 json
+Copy code
 {
   "dev": "expo start --dev-client",
   "android": "expo run:android",
@@ -280,6 +182,7 @@ json
 🎨 Advanced Animations & UX
 ✨ Animation Showcase
 typescript
+Copy code
 // Example: Advanced Banking Card Animation
 import Animated, { 
   useSharedValue, 
@@ -295,28 +198,13 @@ const BankingCard = ({ isActive }) => {
   const animatedStyle = useAnimatedStyle(() => ({
     transform: [
       { 
-        scale: interpolate(
-          animation.value,
-          [0, 1],
-          [1, 1.05],
-          Extrapolate.CLAMP
-        )
+        scale: interpolate(animation.value, [0, 1], [1, 1.05], Extrapolate.CLAMP)
       },
-      {
-        translateY: interpolate(
-          animation.value,
-          [0, 1],
-          [0, -10],
-          Extrapolate.CLAMP
-        )
+      { 
+        translateY: interpolate(animation.value, [0, 1], [0, -10], Extrapolate.CLAMP)
       }
     ],
-    shadowOpacity: interpolate(
-      animation.value,
-      [0, 1],
-      [0.1, 0.3],
-      Extrapolate.CLAMP
-    )
+    shadowOpacity: interpolate(animation.value, [0, 1], [0.1, 0.3], Extrapolate.CLAMP)
   }));
 
   return (
@@ -326,7 +214,8 @@ const BankingCard = ({ isActive }) => {
   );
 };
 🏗 Component Architecture
-text
+css
+Copy code
 src/
 ├── components/
 │   ├── animated/
@@ -350,23 +239,9 @@ src/
     ├── formatters/
     └── validators/
 🔒 Enterprise-Grade Security
-🛡️ Security Architecture
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 🔐 Security Implementation
 typescript
+Copy code
 // Advanced Security Hook
 import { useBiometricAuth } from '../hooks/useBiometricAuth';
 import { useEncryptedStorage } from '../hooks/useEncryptedStorage';
@@ -391,18 +266,19 @@ const useAdvancedSecurity = () => {
   return { secureTransaction, isBiometricSupported };
 };
 📊 Performance Metrics
-⚡ Optimization Achievements
 Metric	Target	Achieved
 App Launch Time	< 2s	1.3s ⚡
 Frame Rate	60 FPS	60 FPS 🎯
 Bundle Size	< 10MB	8.2MB 📦
 API Response	< 100ms	67ms 🚀
 Battery Impact	Low	Minimal 🔋
+
 🤝 Contributing to Excellence
-We welcome contributions from developers who are passionate about fintech innovation!
+We welcome contributions from developers passionate about fintech innovation!
 
 🎯 Development Workflow
 bash
+Copy code
 # 1. Fork the repository
 # 2. Create feature branch
 git checkout -b feature/amazing-feature
@@ -431,30 +307,26 @@ chore: Maintenance
 
 🏆 Recognition & Compliance
 <div align="center">
-🎖️ Industry Standards Compliance
 Standard	Status	Certification
 PCI DSS	✅ Compliant	Level 1
 GDPR	✅ Implemented	Full Compliance
 SOC 2	🟡 In Progress	Type II
 ISO 27001	✅ Certified	2024 Edition
+
 </div>
 📞 Enterprise Support
 <div align="center">
 🌟 Ready for Production Deployment
-Contact Our Team:
-📧 luthando.candlovu30@gmail.com
+📧 Contact: luthando.candlovu30@gmail.com
 🐛 Issue Tracker
 📚 Full Documentation
 
-</div>
-<div align="center">
 🎊 Experience the Future of Banking Today
 <img width="261" height="193" alt="BloomMobile Logo" src="https://github.com/user-attachments/assets/066d1abb-0c11-462c-91a1-441678ccabaf" />
+
 Built with 💙 for the next generation of digital banking
 ⭐ Star us on GitHub if you love what we're building!
 
 ⬆ Back to Top
 
 </div> ```
-
-
