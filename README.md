@@ -1,4 +1,4 @@
-markdown
+
 <!-- Header with Animated Logo -->
 <div align="center">
 
