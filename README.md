@@ -1,3 +1,4 @@
+markdown
 <!-- Header with Animated Logo -->
 <div align="center">
 
@@ -241,7 +242,3 @@ git push origin feature/amazing-feature
 
 </div>
 🚀 Back to Top
-
-© 2024 BloomMobile. All rights reserved. | Building the future of finance, one line of code at a time. 💫
-
-</div> ```
