@@ -33,8 +33,6 @@
 ### 🔐 **Advanced Security Features**
 <img width="4125" height="2148" alt="Security Features" src="https://github.com/user-attachments/assets/0047976b-9eb9-481a-a246-7f6ed614ae2c" />
 
-*Multi-layer security and authentication system*
-
 </div>
 
 ---
@@ -98,27 +96,22 @@
 
 ---
 
-## 🏗️ System Architecture (Simplified Overview – No Mermaid)
+## 🔧 Technology Stack
 
-### 📡 **Frontend**
-- React Native (Expo)
+**Frontend**
+- React Native  
 - TypeScript  
-- Styled Components + Tailwind  
-- React Navigation  
-- React Query + Zustand  
+- Expo  
+- Zustand + React Query  
+- Tailwind + Styled Components  
 
-### 🔧 **Backend**
-- Node.js Microservices / API Gateway  
-- Redis Cache  
+**Backend (Planned / API Expectations)**
+- Microservices Architecture  
+- Node.js / NestJS  
 - PostgreSQL / MongoDB  
-- WebSockets for real-time updates  
-
-### 🛡️ **Security Stack**
-- AES-256-GCM Encryption  
-- RSA-4096 Key Exchange  
-- TLS 1.3 End-to-End  
-- Biometric Authentication  
-- Fraud Detection Engine  
+- Redis Cache  
+- JWT + OAuth2  
+- AI/ML Microservice Layer  
 
 ---
 
@@ -140,7 +133,7 @@ cp .env.example .env
 
 # Start development
 npx expo start --clear
-🏃 Development Scripts
+🧑‍💻 Development Scripts
 json
 Copy code
 {
@@ -155,10 +148,9 @@ Copy code
 🔒 Enterprise-Grade Security (TypeScript Example)
 ts
 Copy code
-// Advanced Security Hook
-import { useBiometricAuth } from '../hooks/useBiometricAuth';
-import { useEncryptedStorage } from '../hooks/useEncryptedStorage';
-import { useNetworkSecurity } from '../hooks/useNetworkSecurity';
+import { useBiometricAuth } from "../hooks/useBiometricAuth";
+import { useEncryptedStorage } from "../hooks/useEncryptedStorage";
+import { useNetworkSecurity } from "../hooks/useNetworkSecurity";
 
 const useAdvancedSecurity = () => {
   const { authenticate, isBiometricSupported } = useBiometricAuth();
@@ -167,17 +159,19 @@ const useAdvancedSecurity = () => {
 
   const secureTransaction = async (transactionData) => {
     const bioAuth = await authenticate();
-    if (!bioAuth.success) throw new Error('Authentication failed');
-    
+    if (!bioAuth.success) throw new Error("Authentication failed");
+
     const encryptedData = await encryptPayload(transactionData);
-    await secureStore('pending_transaction', encryptedData);
+    await secureStore("pending_transaction", encryptedData);
     await validateSSL();
-    
+
     return encryptedData;
   };
 
   return { secureTransaction, isBiometricSupported };
 };
+
+export default useAdvancedSecurity;
 📊 Performance Metrics
 Metric	Target	Achieved
 App Launch Time	< 2s	1.3s ⚡
@@ -189,10 +183,10 @@ Battery Impact	Low	Minimal 🔋
 🏆 Recognition & Compliance
 <div align="center">
 Standard	Status	Certification
-PCI DSS	✅ Compliant	Level 1
-GDPR	✅ Implemented	Fully Compliant
-SOC 2	🟡 In Progress	Type II
-ISO 27001	✅ Certified	2024
+PCI DSS	✅	Level 1
+GDPR	✅	Fully Compliant
+SOC 2	🟡	In Progress
+ISO 27001	✅	2024 Edition
 
 </div>
 🤝 Contributing
@@ -215,28 +209,24 @@ fix: Bug fix
 
 docs: Documentation
 
-style: Formatting
+refactor: Code restructure
 
-refactor: Code changes
+perf: Performance improvement
 
-perf: Performance
-
-test: Tests
+test: Adding tests
 
 chore: Maintenance
 
 📞 Enterprise Support
 <div align="center">
 🌟 Ready for Production Deployment
-📧 Contact: luthando.candlovu30@gmail.com
-🐛 Issue Tracker
+📧 Email: luthando.candlovu30@gmail.com
+🐛 Issue Tracker Available
 📚 Full Documentation Coming Soon
 
 🎊 Experience the Future of Banking Today!
 
 <img width="261" height="193" alt="BloomMobile Logo" src="https://github.com/user-attachments/assets/066d1abb-0c11-462c-91a1-441678ccabaf" />
-⭐ Star us on GitHub if you love what we're building!
-
-⬆️ Back to Top
+⭐ Star the Repo if you love the project!
 
 </div> ```
